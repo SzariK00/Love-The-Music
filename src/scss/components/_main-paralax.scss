@@ -1,0 +1,35 @@
+.main-paralax {
+    $color : rgba(#333, 0.7);
+
+    height:510px;
+    background:
+        linear-gradient(90deg, $color 0%, $color 100%),
+        url(../images/banner-paralax.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.main-paralax-title {
+    font-size:60px;
+    text-transform: uppercase;
+    color:#fff;
+    font-family : "Poiret One", sans-serif;
+    font-weight:normal;
+    margin:0;
+    text-align: center;
+}
+.main-paralax-title span {
+    color: $colorMain;
+
+}
+.main-paralax-text {
+    font-size:19px;
+    color:rgba(white, 0.35);
+    text-align: center;
+    margin-top:15px;
+    max-width:840px;
+}

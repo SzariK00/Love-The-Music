@@ -1,0 +1,38 @@
+.main-love-music {
+    padding:100px 0;
+}
+
+.main-love-music .row {
+    padding-bottom:40px;
+}
+
+.main-love-music .section-title {
+    margin-bottom:80px;
+}
+
+.main-love-music .slick-prev:before,
+.main-love-music .slick-next:before {
+    color:#292D2E;
+    font-family: 'FontAwesome';
+    opacity:1;
+    font-size:25px;
+}
+
+.main-love-music .slick-prev:before {
+    content: '\f053';
+}
+.main-love-music .slick-next:before {
+    content: '\f054';
+}
+
+
+@media only screen and (max-width:860px) {
+    .main-love-music .box {
+        text-align: center;
+        margin:0 auto;
+    }
+
+    .main-love-music .row {
+        padding-bottom:0;
+    }
+}
