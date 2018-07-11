@@ -1,5 +1,5 @@
 <?php
-$mailToSend = 'kartofelek007@gmail.com';
+$mailToSend = 'ajelonek@gmail.com';
 if ( $_SERVER['REQUEST_METHOD'] === 'POST' ) {
     sleep(2);
 
